@@ -252,7 +252,7 @@ nav {
   /* Stack two-column layout vertically */
   .experience-summary {
     flex-direction: column;
-    width: 100%
+    width: 100%;
     h3 {
       padding: 10% 0;
     }
@@ -308,6 +308,7 @@ nav {
 
   .about-section{
     min-height: 50vh;
+    padding: 40px 8%;
     p {
       font-size: 1.4em;
       font-weight: 600;
