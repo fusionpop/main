@@ -211,7 +211,28 @@ nav {
   scroll-snap-align: start;
 }
 
+/* Dot indicators container */
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
 
+/* Style for individual dot */
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dot:hover,
+.dot.active {
+  background-color: #333;
+}
 
 
 
