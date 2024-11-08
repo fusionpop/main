@@ -29,25 +29,6 @@
     </div>
     
     <div id="protectedContent">
-        <h1>Welcome to the Protected Content!</h1>
-        <p>This content is only visible after entering the correct password.</p>
-    </div>
-    
-    <script>
-        // JavaScript function to check password
-        function checkPassword() {
-            const enteredPassword = document.getElementById("password").value;
-            const correctPassword = "shuaidong.phd"; // Replace with your password
-    
-            if (enteredPassword === correctPassword) {
-                // Hide password prompt and show content
-                document.getElementById("passwordPrompt").style.display = "none";
-                document.getElementById("protectedContent").style.display = "block";
-            } else {
-                alert("Incorrect password. Please try again.");
-            }
-        }
-    </script>
 
     <!-- Navigation Bar -->
     <header class="navbar">
@@ -189,6 +170,23 @@
         </div>
 
     </section>
+    </div>
+    
+    <script>
+        // JavaScript function to check password
+        function checkPassword() {
+            const enteredPassword = document.getElementById("password").value;
+            const correctPassword = "shuaidong.phd"; // Replace with your password
+    
+            if (enteredPassword === correctPassword) {
+                // Hide password prompt and show content
+                document.getElementById("passwordPrompt").style.display = "none";
+                document.getElementById("protectedContent").style.display = "block";
+            } else {
+                alert("Incorrect password. Please try again.");
+            }
+        }
+    </script>
 
     <!-- Link JavaScript file at the end of body -->
     <script src="script.js"></script>
